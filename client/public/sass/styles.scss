@@ -1,0 +1,56 @@
+body {
+  font-family: "NowMedium", sans-serif;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: url("../img/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  .heading {
+    text-align: center;
+    .header {
+      color: #fff;
+      font-size: 10vh;
+    }
+  }
+
+  .status {
+    display: flex;
+    justify-content: space-evenly;
+
+    .design {
+      text-align: center;
+
+      .number-circle {
+        width: 20rem;
+        height: 20rem;
+        line-height: 18rem;
+        border-radius: 50%;
+        text-align: center;
+        font-size: 7rem;
+        border: 20px solid #fff;
+        color: #fff;
+      }
+
+      .heading {
+        margin-top: 20px;
+        text-align: center;
+        color: #fff;
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .activity {
+    .heading {
+      font-size: 2em;
+      color: #fff;
+    }
+  }
+}
