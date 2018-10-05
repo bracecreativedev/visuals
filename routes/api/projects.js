@@ -45,7 +45,7 @@ router.get("/progress", (req, res) => {
       })
       .catch(error =>
         res.json({
-          error: "Woops, that wasn't supposd to happen, blame Matt."
+          error: "Woops, that wasn't supposed to happen, blame Matt."
         })
       );
   });

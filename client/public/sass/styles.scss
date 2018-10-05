@@ -36,6 +36,21 @@ body {
         font-size: 7rem;
         border: 20px solid #fff;
         color: #fff;
+
+        &.red {
+          border: 20px solid #ff6961;
+          color: #ff6961;
+        }
+
+        &.amber {
+          border: 20px solid #d4a656;
+          color: #d4a656;
+        }
+
+        &.green {
+          border: 20px solid #7fb685;
+          color: #7fb685;
+        }
       }
 
       .heading {

@@ -29,6 +29,15 @@ body {
         font-size: 7rem;
         border: 20px solid #fff;
         color: #fff; }
+        .main .status .design .number-circle.red {
+          border: 20px solid #ff6961;
+          color: #ff6961; }
+        .main .status .design .number-circle.amber {
+          border: 20px solid #d4a656;
+          color: #d4a656; }
+        .main .status .design .number-circle.green {
+          border: 20px solid #7fb685;
+          color: #7fb685; }
       .main .status .design .heading {
         margin-top: 20px;
         text-align: center;
